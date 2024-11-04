@@ -1,0 +1,18 @@
+[
+  {
+    "hashtagId": 1,
+    "name": "개발자"
+  },
+  {
+    "hashtagId": 2,
+    "name": "디자이너"
+  },
+  {
+    "hashtagId": 3,
+    "name": "마케팅"
+  },
+  {
+    "hashtagId": 4,
+    "name": "기획자"
+  }
+] 

@@ -1,0 +1,20 @@
+[
+  {
+    "infoId": 1,
+    "title": "2024 상반기 채용 공고",
+    "company": "네이버",
+    "category": "채용",
+    "deadline": "2024-04-30T23:59:59",
+    "link": "https://recruit.navercorp.com",
+    "createdAt": "2024-03-21T10:00:00"
+  },
+  {
+    "infoId": 2,
+    "title": "개발자 컨퍼런스 2024",
+    "company": "카카오",
+    "category": "컨퍼런스",
+    "deadline": "2024-05-15T23:59:59",
+    "link": "https://if.kakao.com",
+    "createdAt": "2024-03-21T11:00:00"
+  }
+] 
