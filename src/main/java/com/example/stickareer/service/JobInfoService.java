@@ -7,6 +7,9 @@ import com.example.stickareer.repository.JobInfoRepository;
 import lombok.RequiredArgsConstructor;
 import org.springframework.stereotype.Service;
 
+import java.util.List;
+import java.util.stream.Collectors;
+
 @Service
 @RequiredArgsConstructor
 public class JobInfoService {
@@ -56,5 +59,11 @@ public class JobInfoService {
 
     public void deleteJob(Integer companyId) {
         jobInfoRepository.deleteById(companyId);
+    }
+
+    public List<JobInfoResponse> searchJobs(String keyword, String location) {
+        return jobInfoRepository.searchJobs(keyword, location).stream()
+                .map(JobInfoResponse::from)
+                .collect(Collectors.toList());
     }
 } 
